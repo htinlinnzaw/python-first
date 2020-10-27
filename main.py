@@ -22,11 +22,18 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
+class Orange:
+    print("Orange created")
+
+
 if __name__ == '__main__':
     print_hi('PyCharm')
-    increment()
-    print_hi(a)
-    print_hi(increment_function(0))
+    # increment()
+    # print_hi(a)
+    # print_hi(increment_function(0))
+    orange = Orange()
+    print(type(orange))
+    print(orange)
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
