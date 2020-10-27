@@ -25,6 +25,9 @@ def print_hi(name):
 class Orange:
     print("Orange created")
 
+    def print_orange(self):
+        print(self)
+
 
 if __name__ == '__main__':
     print_hi('PyCharm')
@@ -32,8 +35,8 @@ if __name__ == '__main__':
     # print_hi(a)
     # print_hi(increment_function(0))
     orange = Orange()
-    print(type(orange))
-    print(orange)
-
+    # print(type(orange))
+    # print(orange)
+    orange.print_orange()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
