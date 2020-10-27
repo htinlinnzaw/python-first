@@ -25,14 +25,18 @@ def print_hi(name):
 class Orange:
     print("Orange created")
 
-    def __init__(self):
-        self.color = "orange"
-        self.weight = 10
+    def __init__(self, weight, color):
+        self.mold = 0
+        self.weight = weight
+        self.color = color
 
     def print_orange(self):
         print(self)
         print(self.color)
         print(self.weight)
+
+    def rot(self, days, temperature):
+        self.mold = days * (temperature * .1)
 
 
 # methods surrounded on both sides by underscores are magic methods
@@ -41,9 +45,14 @@ if __name__ == '__main__':
     # increment()
     # print_hi(a)
     # print_hi(increment_function(0))
-    orange = Orange()
+    orange = Orange(10, "red")
     # print(type(orange))
     # print(orange)
-    orange.print_orange()
+    # orange.print_orange()
+    # print(orange.color)
+    # print(orange.weight)
+    # print(orange.mold)
+    orange.rot(10, 98)
+    print(orange.mold)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
