@@ -35,6 +35,7 @@ class Orange:
         print(self.weight)
 
 
+# methods surrounded on both sides by underscores are magic methods
 if __name__ == '__main__':
     print_hi('PyCharm')
     # increment()
