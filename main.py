@@ -49,6 +49,15 @@ def print_diagonal(length, width):
     print(d)
 
 
+def young_or_old():
+    age = input("How old are you \n")
+    age = int(age)
+    if age < 21:
+        print("You are young")
+    else:
+        print("You are old")
+
+
 # methods surrounded on both sides by underscores are magic methods
 if __name__ == '__main__':
     print_hi('PyCharm')
@@ -78,7 +87,11 @@ if __name__ == '__main__':
     # var1 = 0
     # var2 = 13 // 8  # integer division/ floor quotient
     # print(var2)
-    length = len("Python")
-    print(length)
+    # length = len("Python")
+    # print(length)
+    # type1 = type(100.1)
+    # print(type1)
+    young_or_old()
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
