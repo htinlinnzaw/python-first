@@ -1,4 +1,4 @@
-# This is a sample Python script.
+import math
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -44,6 +44,11 @@ def print_hello_world():
         print("Hello World")
 
 
+def print_diagonal(length, width):
+    d = math.sqrt(length ** 2 + width ** 2)
+    print(d)
+
+
 # methods surrounded on both sides by underscores are magic methods
 if __name__ == '__main__':
     print_hi('PyCharm')
@@ -59,6 +64,7 @@ if __name__ == '__main__':
     # print(orange.mold)
     # orange.rot(10, 98)
     # print(orange.mold)
-    print_hello_world()
+    # print_hello_world()
+    print_diagonal(2, 3)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
