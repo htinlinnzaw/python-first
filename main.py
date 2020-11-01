@@ -65,6 +65,8 @@ if __name__ == '__main__':
     # orange.rot(10, 98)
     # print(orange.mold)
     # print_hello_world()
-    print_diagonal(2, 3)
+    # print_diagonal(2, 3)
+    # print("""This is a really really really really really really
+    # really really long line of code.""")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
