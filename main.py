@@ -72,6 +72,8 @@ if __name__ == '__main__':
     x = x + 1  # increment
     x += 1  # increment
     x -= 1  # decrement
-    print(x)
+    # print(x)
+    var = 2 / 0
+    print(var)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
