@@ -75,5 +75,6 @@ if __name__ == '__main__':
     # print(x)
     var = 2 / 0
     print(var)
+        # var1 = 0
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
