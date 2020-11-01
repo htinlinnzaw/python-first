@@ -39,20 +39,26 @@ class Orange:
         self.mold = days * (temperature * .1)
 
 
+def print_hello_world():
+    for i in range(100):
+        print("Hello World")
+
+
 # methods surrounded on both sides by underscores are magic methods
 if __name__ == '__main__':
     print_hi('PyCharm')
     # increment()
     # print_hi(a)
     # print_hi(increment_function(0))
-    orange = Orange(10, "red")
+    # orange = Orange(10, "red")
     # print(type(orange))
     # print(orange)
     # orange.print_orange()
     # print(orange.color)
     # print(orange.weight)
     # print(orange.mold)
-    orange.rot(10, 98)
-    print(orange.mold)
+    # orange.rot(10, 98)
+    # print(orange.mold)
+    print_hello_world()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
