@@ -73,8 +73,10 @@ if __name__ == '__main__':
     x += 1  # increment
     x -= 1  # decrement
     # print(x)
-    var = 2 / 0
-    print(var)
-        # var1 = 0
+    # var = 2 / 0
+    # print(var)
+    # var1 = 0
+    var2 = 13 // 8  # integer division/ floor quotient
+    print(var2)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
