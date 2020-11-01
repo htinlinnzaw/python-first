@@ -68,5 +68,10 @@ if __name__ == '__main__':
     # print_diagonal(2, 3)
     # print("""This is a really really really really really really
     # really really long line of code.""")
+    x = 10
+    x = x + 1  # increment
+    x += 1  # increment
+    x -= 1  # decrement
+    print(x)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
